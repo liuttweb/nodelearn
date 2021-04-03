@@ -1,9 +1,18 @@
 {
-  "name": "expressTest",
+  "name": "expressst",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "express": "^4.17.1"
+  },
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "express-art-template": "^1.0.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
   }
 }
